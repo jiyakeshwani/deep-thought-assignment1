@@ -49,16 +49,282 @@ table {
     width: 100%;
 }
 
-header{
-    background-color: #f0f0f0;
-    box-shadow: 2px 2px 2px 0.5px #C1C1C1;
-}
 .flex{
 	display: flex;
 	justify-content: space-between;
 }
 
+/*  Header  */
+
+header{
+	background-color: #f0f0f0;
+	box-shadow: 2px 2px 2px 0.5px #C1C1C1;
+}
 .image{
-	width: 3rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background-color: #3683F0;
+	padding: 0.5rem;
 	
+}
+.dot{
+    background-color: #3683F0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+
+.three-dots{
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+}
+
+img{
+    margin-left: 1.4rem;
+}
+.image2{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	margin: 0 2rem;
+	object-fit: cover;
+}
+/* tasks */
+.tasks{
+	border: 1px solid gray;
+	border-radius: 6px;
+	flex-basis: 80%;
+	box-shadow: 2px 2px 2px 2px  #C1C1C1;
+	
+}
+.section-head{
+	background-color: #0029FF;
+	padding: 0.7rem 2rem;
+	color: white;
+	text-transform: capitalize;
+    
+}
+.arrow{
+object-fit: cover;
+margin-left: 29rem;
+}
+.task1{
+	height: 13rem;
+}
+.task2{
+	height: 40rem;
+}
+
+.task-head{
+	background-color: black;
+	color: white;
+	border-radius: 6px;
+	padding: 0.5rem;
+	text-align: center;
+	font-weight: 500;
+}
+
+/* main */
+
+.aside{
+    background-color: black;
+    height: 1.7rem;
+    width: 100px;
+    border-radius: 0 10px 0 0;
+	
+}
+.aside img{
+	object-fit: cover;
+	margin-left: 4rem;
+	margin-top: 0.3rem;
+	width: 1.3rem;
+	height: 1.3rem;
+}
+.fa-bars{
+    color: #F0F0F0;
+ margin-left: 78px;
+ margin-top: 5px;
+}
+.blank-aside{
+    width: 97px;
+    height: 550px;
+	
+    border-right: 1px solid rgb(192, 188, 188);
+}
+
+.inside-blank-aside{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 0.5rem 0.6rem;
+	width: 2rem;
+	margin-left: 1.4rem;
+	margin-top: 0.5rem;
+    color: #0029FF; 
+    border: 1px solid #0029FF;
+    border-radius: 8px;
+}
+    
+.main{
+	margin-top: 5rem;
+}
+.padding{
+	padding:  0 5rem;
+}
+h1{
+	text-align: center;
+	margin: 2.5rem;
+	text-transform: lowercase;
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+
+.task{
+  flex-basis: 40%;
+  margin: 2rem 3rem;
+  box-shadow:2px 2px 2px 0.5px #C1C1C1 ;
+  border: 1px solid #C1C1C1;
+  border-radius: 7px;
+  background-color: #FDFDFD;
+
+}
+
+textarea{
+	border-radius: 10px;
+	padding: 0.4rem ;
+}
+
+.task-padding{
+	padding: 0.7rem 1rem;
+}
+.section{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.btn{
+	position: absolute;
+	right: 5rem;
+	padding: 1rem;
+	border: none;
+	background-color: #0029FF;
+	margin: 2rem 0;
+	font-size: 1.1rem;
+	color: white;
+}
+
+.audio{
+	margin: 2rem 1.5rem;
+}
+.task9{
+	width: 39%;
+	height: 50%;
+margin-left: 25rem;
+}
+.thread{
+	margin-left: 1rem;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.top{
+	margin-top: 2rem;
+}
+.sub1{
+	background-color: #F0F0F0;
+border-radius: 15px;
+flex-basis: 48%;
+}
+.radius{
+	border-top-left-radius: 19px;
+	border-top-right-radius: 19px;
+	border: 0;
+	padding: 0.9rem;
+	width: 87%;
+}
+h3{
+
+	margin: 0.5rem 0.3rem;
+
+	font-size: 1.1rem;
+}
+.select{
+	width: 80%;
+	margin-left: 6rem;
+	margin-top: 1rem;
+}
+.select img{
+	object-fit: cover;
+	width: 10%;
+	height: 10%;
+}
+.sub-btn{
+	background-color: #0029FF;
+	color: white;
+	padding: 0.6rem;
+	border: 0;
+	border-radius: 9px;
+	margin-top: 1rem;
+}
+.sub2{
+	padding-top: 0.4rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.sub2 textarea{
+	width: 93%;
+}
+hr{
+	background-color: rgb(155, 152, 152);
+}
+.credit span{
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  font-weight:600px ;
+}
+select{
+	box-shadow: 2px 2px 2px 2px #C1C1C1;
+	border-radius: 5px;
+}
+.end{
+	margin-left: 21rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	width: 30%;
+	
+
+}
+.disc{
+	margin-left: 25rem;
+	object-fit: cover;
+	width: 10%;
+}
+.clr{
+	background-color: #F0F0F0;
+	margin: 1.5rem 0;
+}
+.task7-padding{
+	padding: 0.6rem 3.5rem;
+}
+.task7{
+	height: 58rem;
+}
+.left{
+	margin-left: 16rem;
+	padding: 0.5rem 1.5rem;
+}
+.task7-padding1{
+	padding: 0.6rem 8.5rem;
+}
+.task7-padding1 textarea{
+	box-shadow: 2px 2px 2px 2px #C1C1C1;
+	padding: 1rem;
+}
+.disc1{
+	object-fit: cover;
+	width: 12%;
+	margin-top: 0.5rem;
+	margin-left: 11rem;
 }
